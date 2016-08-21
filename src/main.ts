@@ -2,9 +2,10 @@ import { bootstrap } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
 import { AppComponent, environment } from './app/';
 import { TrainingService } from './app/trainings/training.service';
+import { HTTP_PROVIDERS } from '@angular/http';
 
 if (environment.production) {
   enableProdMode();
 }
 
-bootstrap(AppComponent, [TrainingService]);
+bootstrap(AppComponent, [TrainingService, HTTP_PROVIDERS]);
