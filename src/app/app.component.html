@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Tcc Manager App</h1>
+
+<app-training-list [trainings]="data" (trainingSelected)="selectedData=$event"></app-training-list>
+<app-training-details [training]="selectedData"></app-training-details>
