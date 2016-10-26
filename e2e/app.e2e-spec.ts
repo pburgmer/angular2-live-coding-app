@@ -1,10 +1,10 @@
-import { TccManagerAppPage } from './app.po';
+import { Angular2LiveCodingPage } from './app.po';
 
-describe('tcc-manager-app App', function() {
-  let page: TccManagerAppPage;
+describe('angular2-live-coding App', function() {
+  let page: Angular2LiveCodingPage;
 
   beforeEach(() => {
-    page = new TccManagerAppPage();
+    page = new Angular2LiveCodingPage();
   });
 
   it('should display message saying app works', () => {

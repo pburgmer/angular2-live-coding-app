@@ -1,4 +1,6 @@
-export class TccManagerAppPage {
+import { browser, element, by } from 'protractor';
+
+export class Angular2LiveCodingPage {
   navigateTo() {
     return browser.get('/');
   }
