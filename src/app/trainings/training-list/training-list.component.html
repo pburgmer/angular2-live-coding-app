@@ -1,0 +1,10 @@
+We offer {{trainings?.length}} trainings
+
+<ul>
+  <li *ngFor="let training of trainings"
+      [class.discontinued]="training.discontinued"
+      (click)="listItemClicked(training)"
+  >
+    {{training.name}}
+  </li>
+</ul>

@@ -1,0 +1,8 @@
+.discontinued {
+  text-decoration: line-through;
+  color: grey;
+}
+
+li:hover {
+  cursor: pointer;
+}
